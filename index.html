@@ -1,0 +1,62 @@
+<html>
+ <head>
+ <title>My Website</title>
+ <style>
+     body{
+         background-color: C9FF66;
+         }
+ #defaultBlock {
+ display: table;
+
+ }
+ div {
+ float: left;
+ height: 600px;
+ width: 300px;
+ padding: 10px;
+ }
+ #block1 {
+ background-color: #66ADFF;
+ }
+ #block2 {
+ background-color: #FFC266;
+ width: 650px;
+ }
+ #block3 {
+ background-color: #C266FF;
+ width: 300px; 
+    }
+ h2 {
+ text-align: center;
+ }
+ </style>
+ </head>
+ <body>
+ <main id="defaultBlock">
+ <h2>My Website</h2>
+ <div id="block1">
+ <h2>Toronto's Weather</h2>
+     
+ <a class="weatherwidget-io" href="https://forecast7.com/en/43d65n79d38/toronto/" data-label_1="TORONTO" data-label_2="WEATHER" data-theme="original" >TORONTO WEATHER</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
+     
+ </div>
+ <div id="block2">
+ <h2>My Calender</h2>
+     
+<iframe src="https://calendar.google.com/calendar/embed?src=345419196%40tdsb.ca&ctz=America%2FToronto" style="border: 0" width="640" height="480" frameborder="0" scrolling="no"></iframe>
+     
+ </div>
+ <div id="block3">
+ <h2>Stopwatch</h2>
+     
+<iframe style="width:100%;max-width:360px;height:360px;"
+                    src="https://stopwatch-app.com/widget/stopwatch?theme=light&color=indigo" 
+                    frameborder="0"></iframe>
+     
+ </div>
+ </main>
+ </body>
+</html>
